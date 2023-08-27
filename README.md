@@ -29,4 +29,4 @@ To compile the proto file to Go file we need the Protobuf Compiler(protoc) and a
 go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
 ```
 
-After executing this command, protoc-gen-go (compiler plugin)executable file will be installed in GOBIN path (%USERPROFILE%\go\bin in windows), add this path to the PATH (environmental variable) for the protoc to find it.
+After executing this command, protoc-gen-go (compiler plugin)executable file will be installed in GOBIN path (`%USERPROFILE%\go\bin` in windows), add this path to the PATH (environmental variable) for the protoc to find it.
